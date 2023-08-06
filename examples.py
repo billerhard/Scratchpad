@@ -1,7 +1,7 @@
 """
 Examples"""
 #pylint: disable=unused-import
-from discount import calc_discount 
+from discount import calc_discount
 
 def main():
     """Examples of modules in the scratchpad."""
