@@ -11,4 +11,3 @@ def calc_discount(price: float, discount: float) -> float:
 if __name__ == "__main__":
     import sys
     calc_discount(float(sys.argv[1]), float(sys.argv[2]))
-    
