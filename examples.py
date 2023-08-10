@@ -1,5 +1,6 @@
 """
-Examples"""
+Examples
+Some examples from scratchpad."""
 #pylint: disable=unused-import
 from discount import calc_discount
 from tip import calc_tip
