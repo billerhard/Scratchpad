@@ -26,13 +26,11 @@ def player_input() -> int:
     get player input 1, 2 or 3 for rps."""
     number = 0
     while number < 1 or number > 3:
-        number = input(
-            "Please enter a number.\n\
-            1 for rock\n\
-            2 for paper.\n\
-            3 for scissors.\n\
-            Your number: "
-        )
+        print("Please enter a number.")
+        print("1 for rock")
+        print("2 for paper.")
+        print("3 for scissors.")
+        number = input("Your number: ")
         try:
             number = int(number)
             if number < 1 or number > 3:
