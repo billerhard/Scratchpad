@@ -5,7 +5,7 @@ Returns a calculated tip
 
 def calc_tip(price: float, tip: float) -> float:
     """returns the discounted price
-    ex.: a price of $100.00 with a discount of 20% returns $80.00"""
+    ex.: a price of $100.00 with a discount of 20% returns $120.00"""
     return round(price + tip * (price / 100), 2)
 
 if __name__ == "__main__":
